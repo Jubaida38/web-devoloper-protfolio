@@ -15,6 +15,21 @@
     padding: 15px 35px;
 }
 
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-family: open sans;
+    font-size: 18px;
+}
 
 body{
     font-family: Open Sans;
@@ -86,3 +101,72 @@ nav a{
     margin-top: 10px;
 }
 
+/*main section styles*/
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* main section titles */
+
+main section{
+    margin-top: 130px;
+}
+
+/*about section style*/
+
+.about{
+    padding: 130px;
+    background-color: #FFF8F3;
+    margin: 130px 0px;
+}
+/**about info cointainer**/
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    margin: 0px;
+    color: #474747;
+    font-weight: 400;
+}
+.info-description{
+    margin: 3px;
+    font-weight: 700;
+}
+
+/* skills related styles */
+
+#what-i-do-description{
+    padding: 30px 150px;
+}
+.skilld-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 6px 6px 50px 0px rgba(8, 7, 7, 0.06);
+}
+.skill-description{
+    color: #757575;
+}
+
+/* resume related styles */
+
+.resume-column-title{
+    color: #474747;
+    font-family: open sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
